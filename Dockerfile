@@ -1,4 +1,4 @@
-FROM ruby:2.6.3-alpine
+FROM public.ecr.aws/blinkit/ruby:2.6.3-alpine
 
 WORKDIR /action
 COPY Gemfile Gemfile.lock /action/
